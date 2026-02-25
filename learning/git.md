@@ -50,3 +50,30 @@ A branch is “a timeline of commits”
 Files appear under a branch only because they changed in that timeline.
 Branches don’t contain files — they contain commits.
 
+ou already had main on GitHub
+→ This is the stable, official branch.
+
+You created a new branch locally
+→ Purpose: work safely without touching main.
+
+You made changes on that branch
+→ Feature work / learning notes / improvements.
+
+You decided the changes were good
+→ This is the human decision point.
+
+You pushed the branch to GitHub
+→ So GitHub can see it (backup + review).
+
+You opened a Pull Request (PR)
+→ Meaning: “I propose merging this work into main.”
+
+You merged the PR on GitHub
+→ This officially applied your changes to main.
+
+You deleted the branch
+→ Clean-up. The work is done; the branch has no purpose
+git switch main
+git pull
+
+This syncs your laptop with GitHub’s updated main.
