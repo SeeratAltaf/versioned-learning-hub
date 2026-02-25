@@ -44,4 +44,9 @@ Push the feature branch to GitHub
 git push -u origin feature/git-notes
 
 Now GitHub has this branch. main is untouched.
+A branch is not “a version of files”
+A branch is “a timeline of commits”
+
+Files appear under a branch only because they changed in that timeline.
+Branches don’t contain files — they contain commits.
 
