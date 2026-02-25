@@ -40,3 +40,8 @@ after this simply do "git push"
 # git switch -c feature/git-notes
 “This work is optional until approved.”
 
+Push the feature branch to GitHub
+git push -u origin feature/git-notes
+
+Now GitHub has this branch. main is untouched.
+
