@@ -1,1 +1,42 @@
 # Git Notes
+# git add . - It stages all new, modified, and deleted files in the current directory and everything inside it for the next commit.
+
+# git commit takes everything you staged (git add ...) and locks it into Git history as a snapshot.
+git commit -m "message"
+commit → create a snapshot
+-m → message
+"message" → explains what changed and why
+When you run git commit:
+
+Git takes the staging area
+
+Creates a snapshot (commit)
+
+Assigns it:
+
+a unique hash (ID)
+
+author
+
+timestamp
+
+message
+
+Stores it locally (NOT GitHub)
+# Connect local → GitHub
+git remote add origin https://github.com/YOUR_USERNAME/versioned-learning-hub.git
+
+# git remote -v
+shows which remote repositories your local Git project is connected to and where they point.
+origin → default nickname for the remote repo
+fetch → where Git pulls code from
+push → where Git sends code to
+
+# git push -u origin main
+usually your first-ever push, Push my local main branch to origin, and remember this link.
+-u → set upstream (this is the key part)
+after this simply do "git push"
+
+# git switch -c feature/git-notes
+“This work is optional until approved.”
+
